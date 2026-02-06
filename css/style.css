@@ -22,6 +22,11 @@ body {
 .btn {
     text-decoration: none;
     border-radius: 8px;
+    padding: 18.5px 40px;
+    display: flex;
+    align-items: center;
+    line-height: 23px;
+    letter-spacing: -1px;
 }
 
 .header{
@@ -63,16 +68,14 @@ body {
     gap: 24px;
 }
 
-.logo__btn{
-    padding: 18.5px 40px;
-    display: flex;
-    align-items: center;
-}
-
 .yellow{
     background: rgba(255, 228, 146, 1);
     color: #043873;
     transition: background-color 0.3s ease;
+}
+
+.yellow:hover{
+    background-color: rgba(255, 228, 146, 0.85);
 }
 
 .blue{
@@ -80,10 +83,6 @@ body {
     color: #fff;
     gap: 10px;
     transition: background-color 0.3s ease;
-}
-
-.yellow:hover{
-    background-color: rgba(255, 228, 146, 0.85);
 }
 
 .blue:hover{
@@ -95,5 +94,38 @@ body {
 }
 
 .blue:hover .btn__icon{
-    transform:translateX(6px);
+    transform: translateX(6px);
+}
+
+.hero{
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__title{
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+}
+
+.hero__text{
+    line-height: 30px;
+    letter-spacing: -0.2px;
+    margin: 24px 0 60px;
+} 
+
+.hero__btn{
+    max-width: 219px;
+    padding: 20px;
+}
+
+.hero__image img{
+    display: block;
+    max-width: 100%;
 }
