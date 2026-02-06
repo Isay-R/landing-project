@@ -67,18 +67,27 @@ body {
     padding: 18.5px 40px;
     display: flex;
     align-items: center;
+}
+
+.yellow{
+    background: rgba(255, 228, 146, 1);
+    color: #043873;
     transition: background-color 0.3s ease;
 }
 
-.logo__btn.yellow{
-    background: #FFE492;
-    color: #043873;
-}
-
-.logo__btn.blue{
-    background: #4F9CF9;
+.blue{
+    background: rgba(79, 156, 249, 1);
     color: #fff;
     gap: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.yellow:hover{
+    background-color: rgba(255, 228, 146, 0.85);
+}
+
+.blue:hover{
+    background-color: rgba(79, 156, 249, 0.8);
 }
 
 .btn__icon{
