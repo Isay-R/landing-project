@@ -133,3 +133,17 @@ body {
     display: block;
     max-width: 100%;
 }
+
+.managment{
+    padding: 140px 0 100px;
+    background-color: #fff;
+    background-image: url('../img/managment-bg.svg');
+    background-repeat: no-repeat;
+    background-position: left top 10px;
+}
+
+.managment__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
