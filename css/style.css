@@ -29,6 +29,7 @@ body {
     letter-spacing: -1px;
     align-items: center;
     justify-content: center;
+    padding: 20px 40px;
 }
 
 .header{
@@ -108,10 +109,11 @@ body {
     background-size: cover;
 }
 
-.hero__inner{
+.inner{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 100px;
 }
 
 .hero__title{
@@ -120,7 +122,7 @@ body {
     letter-spacing: -0.2px;
 }
 
-.hero__text{
+.text{
     line-height: 30px;
     letter-spacing: -0.2px;
     margin: 24px 0 60px;
@@ -137,20 +139,14 @@ body {
 }
 
 .managment{
-    padding: 140px 0 100px;
     background-color: #fff;
     background-image: url('../img/managment-bg.svg');
     background-repeat: no-repeat;
     background-position: left top 10px;
+    padding: 100px 0 0;
 }
 
-.managment__inner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.managment__title{
+.title{
     font-size: 72px;
     max-width: 657px;
 }
@@ -176,10 +172,15 @@ body {
     opacity: 0.8;
 }
 
-.managment__text{
-    margin: 24px 0 60px;
-}
-
 .managment__btn{
     max-width: 201px;
+}
+
+.work{
+    background: #fff;
+    padding: 100px 0 140px;
+}
+
+.work__btn{
+    max-width: 186px;
 }
