@@ -214,3 +214,12 @@ body {
     max-width: 176px;
 }
 
+.customise{
+    background: #fff;
+    padding: 140px 0;
+}
+
+.customise__btn{
+    max-width: 164px;
+}
+
