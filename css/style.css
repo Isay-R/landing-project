@@ -184,3 +184,33 @@ body {
 .work__btn{
     max-width: 186px;
 }
+
+.extension{
+    padding: 140px 0;
+    color: #fff;
+}
+
+.highlight-opacity{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.highlight-opacity::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 40px;
+    background: url('../img/underline.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: -1;
+}
+
+.extension__btn{
+    max-width: 176px;
+}
+
