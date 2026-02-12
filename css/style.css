@@ -345,3 +345,25 @@ button:hover{
 .pricing-card:hover .pricing-card__icon {
     content: url("../img/check-yellow.svg")
 }
+
+.your-work{
+    padding: 140px 0;
+    color: #fff;
+}
+
+.your-work__inner{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    gap: 0;
+}
+
+.your-work__title{
+    max-width: 100%;
+}
+
+.your-work__text{
+    max-width: 1064px;
+    margin: 24px 0 60px;
+}
