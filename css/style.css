@@ -390,3 +390,7 @@ button:hover{
     background-size: contain;
     z-index: -1;
 }
+
+.your-data__inner{
+    padding: 140px 0;
+}
