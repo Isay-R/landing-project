@@ -426,3 +426,25 @@ button:hover{
     justify-content: space-between;
     width: 100%;
 }
+
+.app{
+    background-image: url('../img/app-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center top 10px;
+    background-size: cover;
+}
+
+.app__inner{
+    padding: 140px 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app__text{
+    margin: 24px 0 60px;
+}
+.app__btn{
+    max-width: 194px;
+}
