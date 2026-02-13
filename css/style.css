@@ -448,3 +448,19 @@ button:hover{
 .app__btn{
     max-width: 194px;
 }
+
+.testimonial{
+    background: #fff;
+}
+
+.testimonial__inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 60px;
+}
